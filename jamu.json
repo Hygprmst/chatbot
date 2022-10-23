@@ -20,16 +20,16 @@
         "kawan"
       ],
       "responses": [
-        "Hai! Asisten Jamu di sini. Mau tau Jamu tentang apa nih?",
-        "Halo! Saya Asisten Jamu, salam kenal ya! Mau tau tentang Jamu, kan?",
-        "Helo! Ini Asisten Jamu. Lagi kepo tentang jenis-jenis jamu ya?"
+        "Hai! Asisten Herbal di sini. Mau tau Jamu tentang apa nih?",
+        "Halo! Saya Asisten Herbal, salam kenal ya! Mau tau tentang Jamu, kan?",
+        "Helo! Ini Asisten Herbal. Lagi kepo tentang jenis-jenis jamu ya?"
       ]
     },
     {
       "tag": "Asisten_Jamu",
       "patterns": [
-        "Apa itu Asisten Jamu?",
-        "Siapa Asisten Jamu?"
+        "Apa itu Asisten Herbal?",
+        "Siapa Asisten Herbal?"
       ],
       "responses": [
         "Asisten Jamu adalah aplikasi chatbot informasi tentang Kampus Merdeka yang dimulai dari pelaksanaan, persyaratan dan program yang berada di Kampus Merdeka!",
@@ -41,7 +41,7 @@
       "patterns": [
         "Siapa pembuatmu?",
         "Kadek, yang buat kamu siapa sih?",
-        "Siapa penciptamu, Kadek?"
+        "Siapa penciptamu, Asja?"
       ],
       "responses": [
         "Asisten Jamu diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
@@ -89,7 +89,9 @@
       "tag": "penjelasan_jamu",
       "patterns": [
         "Apa itu jamu?",
-        "Apa pengertian jamu"
+        "Apa pengertian jamu",
+        "Jamu adalah ?",
+        "definisi jamu ?"
       ],
       "responses": [
         "Jamu adalah ramuan tradisional sebagai salah satu upaya pengobatan yang telah dikenal luas dan dimanfaatkan oleh masyarakat dengan tujuan mengobati penyakit ringan, mencegah datangnya penyakit, menjaga ketahanan dan kesehatan tubuh (Paryono, 2014)."
@@ -98,7 +100,8 @@
     {
       "tag": "obat",
       "patterns": [
-        "Apakah jamu termasuk obat?"
+        "Apakah jamu termasuk obat?",
+        "Jamu termasuk golongan obat apa ?"
       ],
       "responses": [
         "Jamu termasuk Obat Tradisional yang dibuat dari bahan atau ramuan dari tumbuhan, hewan atau mineral dan sediaan sarian atau campurannya yang secara turun-temurun telah digunakan untuk pengobatan berdasarkan norma yang berlaku di masyarakat."
@@ -107,7 +110,9 @@
     {
       "tag": "disebut_jamu",
       "patterns": [
-        "Kenapa disebut jamu?"
+        "Kenapa disebut jamu?",
+        "Mengapa disebut jamu?",
+        "Arti kata jamu ?"
       ],
       "responses": [
         "Kata jamu berasal dari bahasa Jawa kuno, yaitu jampi atau usodo. Jampi atau usodo memiliki arti penyembuhan menggunakan ramuan obat-obatan atau doa-doa."
@@ -116,10 +121,13 @@
     {
       "tag": "efek_jamu",
       "patterns": [
-        "Apa efek jamu ?"
+        "Apa efek jamu ?",
+        "Apa pengaruh jamu ?",
+        "Bagaimana pengaruh jamu ?",
+        "Dampak mengkonsumsi jamu ?"   
       ],
       "responses": [
-        "keluhan sakit maag karena beberapa jamu mengandung antiradang yang berefek samping pada iritasi lambung oleh asam lambung",
+        "Efek jamu ialah keluhan sakit maag karena beberapa jamu mengandung antiradang yang berefek samping pada iritasi lambung oleh asam lambung",
         ""
       ]
     },
@@ -150,7 +158,7 @@
       ]
     },
     {
-      "tag": "jamu_untuk_anak",
+      "tag": "jamu_anak",
       "patterns": [
         "Apakah jamu bagus untuk anak?"
       ],
@@ -158,6 +166,7 @@
         "Pada anak-anak, jamu sering diberikan dengan harapan meningkatkan sistem kekebalan tubuh agar tidak gampang sakit. Selain meningkatkan daya tahan tubuh, jamu juga ampuh untuk meningkatkan nafsu makan, meredakan diare dan influenza, serta meringankan rasa sakit saat gigi si kecil mulai tumbuh."
       ]
     },
+    
     {
       "tag": "jamu_untuk_anak",
       "patterns": [
@@ -168,7 +177,7 @@
       ]
     },
     {
-      "tag": "jamu_untuk_anak",
+      "tag": "jamu_anak",
       "patterns": [
         "Kapan anak boleh minum jamu?",
         "Jamu untuk anak umur berapa?",
