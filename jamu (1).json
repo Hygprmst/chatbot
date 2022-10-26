@@ -1,0 +1,374 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "selamat siang siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Asja di sini. Mau tau tentang apa nih? ^_^",
+        "Halo! Saya Asja, salam kenal ya!, mau tau info apa nih ? ^_^",
+        "Helo! Ini Asisten Jamu. Ada yang bisa saya bantu ?  ^_^"
+      ]
+    },
+    {
+      "tag": "Asisten_Jamu",
+      "patterns": [
+        "Apa itu Asisten Jamu?",
+        "Siapa Asisten Jamu?"
+      ],
+      "responses": [
+        "Asisten Jamu adalah aplikasi chatbot informasi tentang Kampus Merdeka yang dimulai dari pelaksanaan, persyaratan dan program yang berada di Kampus Merdeka!",
+        "Asisten Jamu itu adalah teman informasi kamu tentang Kampus Merdeka!"
+      ]
+    },
+    {
+      "tag": "pencipta_Asisten_Jamu",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Asja, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Asja?"
+      ],
+      "responses": [
+        "Asisten Jamu diciptakan oleh mahasiswa dan mahasiswi dari program Kampus Merdeka yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat Asisten Jamu dari kalangan mahasiswa dan mahasiswi lho!",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "pengertian_jamu",
+      "patterns": [
+        "Apa itu jamu?",
+        "Apa pengertian jamu"
+      ],
+      "responses": [
+        "Jamu adalah ramuan tradisional sebagai salah satu upaya pengobatan yang telah dikenal luas dan dimanfaatkan oleh masyarakat dengan tujuan mengobati penyakit ringan, mencegah datangnya penyakit, menjaga ketahanan dan kesehatan tubuh (Paryono, 2014)."
+      ]
+    },
+    {
+      "tag": "obat",
+      "patterns": [
+        "Apakah jamu termasuk obat?",
+        "Apa jamu obat ?",
+        "apakah jamu adalah obat ?"
+      ],
+      "responses": [
+        "Iyap,Jamu termasuk Obat Tradisional yang dibuat dari bahan atau ramuan dari tumbuhan, hewan atau mineral dan sediaan sarian atau campurannya yang secara turun-temurun telah digunakan untuk pengobatan berdasarkan norma yang berlaku di masyarakat."
+      ]
+    },
+    {
+      "tag": "disebut_jamu",
+      "patterns": [
+        "Kenapa disebut jamu?"
+      ],
+      "responses": [
+        "Kata jamu berasal dari bahasa Jawa kuno, yaitu jampi atau usodo. Jampi atau usodo memiliki arti penyembuhan menggunakan ramuan obat-obatan atau doa-doa."
+      ]
+    },
+    {
+      "tag": "efek_jamu",
+      "patterns": [
+        "Apa efek jamu ?"
+      ],
+      "responses": [
+        "keluhan sakit maag karena beberapa jamu mengandung antiradang yang berefek samping pada iritasi lambung oleh asam lambung",
+        "jamu ini rentan memicu gangguan pencernaan, seperti mual, kembung, muntah, kram perut, diare, sering buang angin, dan sebagainya."
+      ]
+    },
+    {
+      "tag": "program_kampus_merdeka",
+      "patterns": [
+        "Program Kampus Merdeka Kemendikbud",
+        "Program Kampus Merdeka Kemensos",
+        "Program Kampus Merdeka BUMN"
+      ],
+      "responses": [
+        "Yuk, pilih program di bawah ini:"
+      ]
+    },
+    {
+      "tag": "program_kampus_merdeka",
+      "patterns": [
+        "Studi Independen",
+        "Magang",
+        "Kampus Mengajar",
+        "IISMA",
+        "Pertukaran Mahasiswa Merdeka",
+        "Pejuang Muda",
+        "PMMB"
+      ],
+      "responses": [
+        "Mau tau tentang apa nih?"
+      ]
+    },
+    {
+      "tag": "jamu_bagus_untuk_anak",
+      "patterns": [
+        "Apakah jamu bagus untuk anak?"
+      ],
+      "responses": [
+        "Pada anak-anak, jamu sering diberikan dengan harapan meningkatkan sistem kekebalan tubuh agar tidak gampang sakit. Selain meningkatkan daya tahan tubuh, jamu juga ampuh untuk meningkatkan nafsu makan, meredakan diare dan influenza, serta meringankan rasa sakit saat gigi si kecil mulai tumbuh."
+      ]
+    },
+    {
+      "tag": "jamu_umur_untuk_anak",
+      "patterns": [
+        "Jamu untuk anak umur berapa?"
+      ],
+      "responses": [
+        "Menurut Kementerian Kesehatan, anak-anak usia enam sampai 12 tahun boleh mengonsumsi jamu sekitar setengah dari porsi orang dewasa."
+      ]
+    },
+    {
+      "tag": "jamu_untuk_anak",
+      "patterns": [
+        "Kapan anak boleh minum jamu?",
+        "Jamu untuk anak umur berapa?",
+        "Bolehkah anak kecil minum jamu ?"
+      ],
+      "responses": [
+        "Sebenarnya anak bayi minum jamu boleh-boleh saja, tapi ada aturan yang harus diperhatikan. Anak bayi minum jamu hanya diperbolehkan bagi bayi berusia di atas 6 bulan karena bayi di bawah usia 6 bulan hanya membutuhkan asupan ASI."
+      ]
+    },
+    {
+      "tag": "manfaat_jamu",
+      "patterns": [
+        "Apa saja manfaat jamu ?",
+        "Apa Kelebihan jamu ?",
+        "Apa Kelebihan minum jamu ?"
+      ],
+      "responses": [
+        "Meredakan demam. Sebagai obat penambah darah bagi penderita kurang darah atau anemia. Meredakan nyeri otot. Menambah nafsu makan."
+      ]
+    },
+    {
+      "tag": "Rekomendasi_jamu_enak",
+      "patterns": [
+        "Jamu apa yang enak?",
+        "Rekomendasi jamu"
+      ],
+      "responses": [
+        "Jahe kencur jeruk Paduan panasnya jahe dan asamnya jeruk nipis dipercaya bisa mengurangi keluhan sakit tenggorokan. Ramuan ini juga efektif untuk menghangatkan badan di musim hujan.",
+        "Beras kencur Jamu ini selalu tersedia di bakul-bakul jamu. Ramuannya terdiri dari beras, kencur, dan bahan lain seperti jahe, asam kawak, biji kedaung, garam, dan gula merah. Khasiatnya adalah meningkatkan nafsu makan anak hingga meredakan diare."
+      ]
+    },
+    {
+      "tag": "jenis_jamu",
+      "patterns": [
+        "Jamu Beras Kencur",
+        "Jamu Kunyit Asam",
+        "Jamu Temulawak.",
+        "Jamu Uyup-uyup"
+      ],
+      "responses": [
+        "Mau tau tentang apanya nihh ?"
+      ]
+    },
+    {
+      "tag": "penjelasan_jamu_beras_kencur",
+      "patterns": [
+        "jamu beras kencur",
+        "Apa itu jamu beras kencur ?",
+        "Apa jamu beras kencur ?"
+      ],
+      "responses": [
+        "Jamu beras kencur ini menggunakan campuran bahan beras dan kencur yang dipercaya menghilangkan pegal-pegal pada tubuh",
+        "Beras kencur adalah minuman penyegar khas Jawa. Minuman ini juga digolongkan sebagai jamu karena memiliki khasiat meningkatkan nafsu makan. Beras kencur sangat populer karena memiliki rasa yang manis dan segar."
+      ]
+    },
+    {
+      "tag": "bahan_jamu_beras_kencur",
+      "patterns": [
+        "Apa bahan jamu beras kencur ?",
+        "Bahan beras kencur ?",
+        "terbuat dari apa beras kencur ?",
+        "Resep beras kencur ?"
+      ],
+      "responses": [
+        "Jamu beras kencur ini menggunakan campuran bahan beras dan kencur yang dipercaya menghilangkan pegal-pegal pada tubuh",
+        "Bahan utama beras kencur tentu saja adalah beras yang dihaluskan dan kencur. Kombinasi beras dan kencur banyak mengandung vitamin B"
+      ]
+    },
+    {
+      "tag": "manfaat_beras_kencur",
+      "patterns": [
+        "Apa manfaat jamu beras kencur ?",
+        "apa jamu beras kencur bermanfaat ?"
+      ],
+      "responses": [
+        "Menurut beberapa penelitian, kandungan di dalam jamu beras kencur diduga dapat menghambat pertumbuhan berbagai sel kanker, seperti kanker lambung, kanker usus besar, kanker mulut, dan multiple myeloma.",
+        "Dalam pengobatan tradisional, jamu beras kencur dipercaya dapat meredakan sakit perut dan sakit gigi. Semua ini diduga berkat efek antiradang dalam kencur yang dapat menghambat faktor inflamasi."
+      ]
+    },
+    {
+      "tag": "penjelasan_jamu_kunyit_asam",
+      "patterns": [
+        "jamu kunyit asam",
+        "Apa itu jamu kunyit asam ?",
+        "Apa jamu kunyit asam ?"
+      ],
+      "responses": [
+        "Jamu Kunyit asam adalah jamu yang berbahan dasar kunyit, dan asam jawa yang konon berkhasiat untuk menyegarkan tubuh atau dapat membuat tubuh menjadi dingin. Ada pula yang mengatakan bermanfaat untuk menghindarkan dari panas dalam atau seriawan, serta membuat perut menjadi dingin."
+      ]
+    },
+    {
+      "tag": "bahan_jamu_kunyit_asam",
+      "patterns": [
+        "Apa bahan jamu kunyit asam ?",
+        "Bahan kunyit asam ?"
+      ],
+      "responses": [
+        "Bahan utama jamu kunyit asam adalah kunyit dan asam jawa, gula kelapa atau gula batu, air, dan sedikit garam. Namun, banyak penjual jamu gendong yang menambahkan bahan lain untuk memperkaya rasa dan manfaat dari jamu."
+      ]
+    },
+    {
+      "tag": "manfaat_kunyit_asam",
+      "patterns": [
+        "Apa manfaat jamu kunyit asam ?",
+        "manfaat minum jamu kunyit asam ?"
+      ],
+      "responses": [
+        "Dapat mengendalikan gula darah, Bila  mengidap penyakit diabetes, cobalah untuk rutin mengonsumsi jamu kunyit asam.",
+        "manfaat kunyit asam ini berasal dari sifat antioksidan. Pasalnya, antioksidan ini membantu memerangi radikal bebas yang bisa merusak sel pankreas."
+      ]
+    },
+    {
+      "tag": "penjelasan_jam_temulawak",
+      "patterns": [
+        "Apa itu jamu temulawak ?",
+        "pengertian jamu temulawak"
+      ],
+      "responses": [
+        "Temulawak adalah tanaman asli Indonesia yang bentuknya mirip dengan kunyit. Tanaman yang memiliki nama latin Curcuma xanthorrhiza ini biasanya berbentuk seperti silinder dengan diameter 6 cm."
+      ]
+    },
+    {
+      "tag": "bahan_jamu_temulawak",
+      "patterns": [
+        "Apa bahan jamu temulawak ?",
+        "Bahan Jamu temulawak ?"
+      ],
+      "responses": [
+        "100 gram Temu Lawak Segar, 50 gram Kencur, 40 gram Asam Jawa,200 ml Air Mineral, 200 gram Gula Aren (me: gula jawa), 4 helai Daun Pandan (me: 2 helai), 20 gram Jitan (Skip),2 liter Air Putih"
+      ]
+    },
+    {
+      "tag": "manfaat_temulawak",
+      "patterns": [
+        "Apa manfaat jamu temulawak ?",
+        "apa jamu temulawak bermanfaat ?"
+      ],
+      "responses": [
+        "Manfaatnya mengobati gangguan pencernaan",
+        "Dapat mengatasi penyakit sendi degeneratif, di mana sendi-sendi menjadi terasa sakit dan kaku."
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "bahan_jamu_uyup",
+      "patterns": [
+        "Apa bahan jamu uyup uyup ?",
+        "Resep jamu uyup uyup ?"
+      ],
+      "responses": [
+        "Bahan dari jamu uyup-uyup antara lain kencur, kunyit, lempuyang, temu giring, temulawak dan daun katu."
+      ]
+    },
+    {
+      "tag": "jamu_sakit_kepala",
+      "patterns": [
+        "Jamu untuk meredakan sakit kepala ?",
+        "Saran jamu untuk sakit kepala"
+      ],
+      "responses": [
+        "Ada Jahe sebagai ramuan untuk sakit kepala, jahe adalah obat rumahan untuk bantuan instan. Ini membantu mengurangi peradangan pembuluh darah di kepala, sehingga mengurangi rasa sakit"
+      ]
+    },
+    {
+      "tag": "jamu_sakit_pinggang",
+      "patterns": [
+        "Jamu untuk meredakan sakit pinggang ?",
+        "Saran jamu untuk sakit pinggang "
+      ],
+      "responses": [
+        "Ada Kunyit sering dijadikan sebagai obat herbal sakit pinggang karena memiliki sifat antioksidan, anti-rematik, dan anti-inflamasi di dalamnya."
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
